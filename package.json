@@ -1,0 +1,31 @@
+{
+    "name": "vscode-jxss",
+    "displayName": "jxss",
+    "description": "京东小程序jxss高亮显示",
+    "version": "0.0.1",
+    "keywords": ["jd", "miniprogram", "jxss"],
+    "publisher": "xingshuo",
+    "author": "xs",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "jxss",
+            "aliases": ["jxss", "京东小程序jxss"],
+            "extensions": [".jxss"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "jxss",
+            "scopeName": "source.jxss",
+            "path": "./syntaxes/jxss.tmLanguage.json",
+            "embeddedLanguages": {
+                "source.css": "css"
+            }
+        }]
+    }
+}
