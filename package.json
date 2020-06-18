@@ -2,7 +2,7 @@
     "name": "vscode-jxss",
     "displayName": "jxss",
     "description": "京东小程序jxss高亮显示",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": ["jd", "miniprogram", "jxss"],
     "publisher": "xingshuo",
     "author": "xs",
@@ -19,7 +19,7 @@
     "contributes": {
         "languages": [{
             "id": "jxss",
-            "aliases": ["jxss", "京东小程序jxss"],
+            "aliases": ["JXSS", "jxss"],
             "extensions": [".jxss"],
             "configuration": "./language-configuration.json"
         }],
