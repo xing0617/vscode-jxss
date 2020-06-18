@@ -2,16 +2,16 @@
     "name": "vscode-jxss",
     "displayName": "jxss",
     "description": "京东小程序jxss高亮显示",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "keywords": ["jd", "miniprogram", "jxss"],
-    "publisher": "xingshuo",
+    "publisher": "xing0617",
     "author": "xs",
     "repository": {
         "type": "git",
         "url": "https://github.com/xing0617/vscode-jxss.git"
     },
     "engines": {
-        "vscode": "^1.46.0"
+        "vscode": "^1.27.0"
     },
     "categories": [
         "Programming Languages"
